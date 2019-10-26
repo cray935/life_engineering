@@ -111,6 +111,21 @@ country_event = {
             }
         }
     }
+	
+	option = {
+        name = leng_project_event.1.lith
+        trigger = {
+            has_lithoids = yes
+        }
+        hidden_effect = {
+            event_target:leng_project_planet = {
+                set_timed_planet_flag = {
+                    flag = leng_create_lith
+                    days = 12
+                }
+            }
+        }
+    }
 
     after = {
         hidden_effect = {
@@ -230,6 +245,20 @@ planet_event = {
                 portrait = RANDOM
                 homeworld = event_target:leng_project_planet
                 traits = { trait = leng_trait_engineered }
+            }
+            last_created_species = { save_event_target_as = leng_project_species }
+        }
+		else_if = {
+            limit = { has_planet_flag = leng_create_lith }
+            create_species = {
+                class = LITHOID
+                name = RANDOM
+                portrait = RANDOM
+                homeworld = event_target:leng_project_planet
+                traits = { 
+					trait = trait_lithoid
+					trait = leng_trait_engineered
+				}
             }
             last_created_species = { save_event_target_as = leng_project_species }
         }
