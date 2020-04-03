@@ -150,3 +150,41 @@ leng_decision_life_engineering_project_prim = {
         }
 	}
 }
+
+leng_decision_regress_civ = {
+    
+    owned_planets_only = yes
+
+	prerequisites = {
+		"leng_tech_regress_civ"
+    }
+    
+	enactment_time = 360
+    resources = {
+		category = decisions
+		cost = {
+            energy = 2000
+		}
+	}
+	
+	potential = {
+        OR = {
+            habitable_planet = yes
+            is_planet_class = pc_ringworld_habitable
+        }
+	}
+    
+	effect = {
+        hidden_effect = {
+			save_event_target_as = leng_project_planet
+			owner = {
+                save_event_target_as = leng_project_owner
+				country_event = { id = leng_project_event.3 }
+            }
+        }
+	}
+	
+	ai_weight = {
+        weight = 0
+	}
+}

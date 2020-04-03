@@ -153,6 +153,18 @@ planet_event = {
 }
 
 planet_event = {
+    id = leng_project_event.3
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        create_early_primitive_empire = yes
+        setup_primitive_planet = yes
+    }
+}
+
+planet_event = {
     id = leng_project_event.10
     hide_window = yes
 
@@ -307,6 +319,21 @@ country_event = {
     desc = leng_project_event.101.desc
     picture = GFX_evt_alien_cavemen
     show_sound = event_celebration
+
+    is_triggered_only = yes
+
+    option = { 
+        name = EXCELLENT 
+    }
+}
+
+country_event = {
+    id = leng_project_event.103
+    location = event_target:leng_project_planet
+    title = leng_project_event.103.name
+    desc = leng_project_event.103.desc
+    picture = GFX_evt_alien_cavemen
+    show_sound = event_primitive_civilization
 
     is_triggered_only = yes
 

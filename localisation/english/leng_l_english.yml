@@ -19,14 +19,17 @@
 
   leng_tech_life_engineering: "Life Engineering"
   leng_tech_life_engineering_desc: "By providing the necessary materials it is possibile to create an evolutionary enviornment of unicellular organisms. By controlling the process any creature can evolve rapidly to an intelligent being."
+  leng_tech_regress_civ: "Civilization Regression"
+  leng_tech_regress_civ_desc: "By isolating our colony and strong medication we can let them regress to a very primitive neighbourhood."
 
   # DECISIONS
 
   leng_decision_life_engineering_project: "Life Engineering Project"
   leng_decision_life_engineering_project_desc: "Starts a L.E.P. on this planet."
-
   leng_decision_life_engineering_project_prim: "Life Engineering Project"
   leng_decision_life_engineering_project_prim_desc: "Starts a L.E.P. on this planet."
+  leng_decision_regress_civ: "Civilization Regression Project"
+  leng_decision_regress_civ_desc: "Starts the regression of our colony to create a primitive society."
 
   # BUILDINGS
 
@@ -78,3 +81,6 @@
   
   leng_project_event.101.name: "Life Engineering Project completed"
   leng_project_event.101.desc: "The life engineers finished the evolution cycle on §Y[leng_project_planet.GetName]§!. We welcome the §Y[leng_project_species.GetName]§! to the galaxy."
+  
+  leng_project_event.103.name: "Civilization Regression Project completed"
+  leng_project_event.103.desc: "After a year of isolation and drugged water supply our citizens have totally forgotten who they were. Still they are intelligent enough to survive but have no clue about technology. The former modern society on §Y[leng_project_planet.GetName]§! is gone now."
