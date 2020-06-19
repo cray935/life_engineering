@@ -179,8 +179,8 @@ leng_decision_regress_civ = {
 			save_event_target_as = leng_project_planet
 			owner = {
                 save_event_target_as = leng_project_owner
-				country_event = { id = leng_project_event.3 }
             }
+			planet_event = { id = leng_project_event.3 }
         }
 	}
 	

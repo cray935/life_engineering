@@ -159,8 +159,18 @@ planet_event = {
     is_triggered_only = yes
 
     immediate = {
-        create_early_primitive_empire = yes
-        setup_primitive_planet = yes
+	
+		random_pop = {
+			species = {
+				save_event_target_as = leng_project_species
+			}
+		}
+        
+		leng_create_primitive_country = yes
+		
+		event_target:leng_project_owner = {
+			country_event = { id = leng_project_event.103 }
+		}
     }
 }
 
@@ -277,8 +287,7 @@ planet_event = {
 
         if = {
             limit = { has_planet_flag = leng_create_primitives }
-            create_early_primitive_empire = yes
-            setup_primitive_planet = yes
+            leng_create_primitive_country = yes
             event_target:leng_project_owner = {
                 country_event = { id = leng_project_event.101 }
             }
