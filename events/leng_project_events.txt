@@ -285,20 +285,21 @@ planet_event = {
             last_created_species = { save_event_target_as = leng_project_species }
         }
 
+		while = {
+			count = 4
+			create_pop = {
+				species = last_created
+			}					
+		}
+
         if = {
             limit = { has_planet_flag = leng_create_primitives }
-            leng_create_primitive_country = yes
+			leng_create_primitive_country = yes
             event_target:leng_project_owner = {
                 country_event = { id = leng_project_event.101 }
             }
         }
         else = {
-            while = {
-                count = 3
-                create_pop = {
-                    species = event_target:leng_project_species
-                }
-            }
             event_target:leng_project_owner = {
                 country_event = { id = leng_project_event.100 }
             }
