@@ -30,6 +30,8 @@
   leng_decision_life_engineering_project_prim_desc: "Starts a L.E.P. on this planet."
   leng_decision_regress_civ: "Civilization Regression Project"
   leng_decision_regress_civ_desc: "Starts the regression of our colony to create a primitive society."
+  leng_decision_life_engineering_project_presapient: "Presapient Project"
+  leng_decision_life_engineering_project_presapient_desc: "Starts a L.E.P. on this planet but will create a pre sapient species instead."
 
   # BUILDINGS
 
@@ -75,6 +77,18 @@
   leng_project_event.1.fun: "Create §Y$FUN$§! species."
   leng_project_event.1.plant: "Create §Y$PLANT$§! species."
   leng_project_event.1.lith: "Create §Y$LITHOID$§! species."
+  
+  leng_project_event.4.name: "Engineering the Evolution"
+  leng_project_event.4.desc: "Unicellular organisms developed rapidly to primal creatures. The scientists can now choose which type of species should be prepared for their next evolutional step."
+  leng_project_event.4.hum: "Create §Y$HUM$§! species."
+  leng_project_event.4.mam: "Create §Y$MAM$§! species."
+  leng_project_event.4.rep: "Create §Y$REP$§! species."
+  leng_project_event.4.avi: "Create §Y$AVI$§! species."
+  leng_project_event.4.art: "Create §Y$ART$§! species."
+  leng_project_event.4.mol: "Create §Y$MOL$§! species."
+  leng_project_event.4.fun: "Create §Y$FUN$§! species."
+  leng_project_event.4.plant: "Create §Y$PLANT$§! species."
+  leng_project_event.4.lith: "Create §Y$LITHOID$§! species."
 
   leng_project_event.100.name: "Life Engineering Project completed"
   leng_project_event.100.desc: "The life engineers finished the evolution cycle on §Y[leng_project_planet.GetName]§!. We welcome the §Y[leng_project_species.GetName]§! to the galaxy."
