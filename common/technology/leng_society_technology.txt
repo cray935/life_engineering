@@ -3,7 +3,7 @@ leng_tech_life_engineering = {
 	area = society
 	tier = 3
 	category = { biology }	
-	prerequisites = { "tech_gene_tailoring" }
+	prerequisites = { }
 	weight = @tier3weight2
 	
 	gateway = biological
@@ -43,7 +43,7 @@ leng_tech_regress_civ = {
 	area = society
 	tier = 3
 	category = { biology }	
-	prerequisites = { "tech_gene_tailoring" }
+	prerequisites = { }
 	weight = @tier3weight2
 	
 	gateway = biological
