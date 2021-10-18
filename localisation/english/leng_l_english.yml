@@ -77,6 +77,7 @@
   leng_project_event.1.fun: "Create §Y$FUN$§! species."
   leng_project_event.1.plant: "Create §Y$PLANT$§! species."
   leng_project_event.1.lith: "Create §Y$LITHOID$§! species."
+  leng_project_event.1.necro: "Create §Y$NECROIDS$§! species."
   
   leng_project_event.4.name: "Engineering the Evolution"
   leng_project_event.4.desc: "Unicellular organisms developed rapidly to primal creatures. The scientists can now choose which type of species should be prepared for their next evolutional step."
@@ -89,6 +90,7 @@
   leng_project_event.4.fun: "Create §Y$FUN$§! species."
   leng_project_event.4.plant: "Create §Y$PLANT$§! species."
   leng_project_event.4.lith: "Create §Y$LITHOID$§! species."
+  leng_project_event.4.necro: "Create §Y$NECROID$§! species."
 
   leng_project_event.100.name: "Life Engineering Project completed"
   leng_project_event.100.desc: "The life engineers finished the evolution cycle on §Y[leng_project_planet.GetName]§!. We welcome the §Y[leng_project_species.GetName]§! to the galaxy."
