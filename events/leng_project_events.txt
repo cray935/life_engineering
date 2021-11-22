@@ -142,6 +142,21 @@ country_event = {
         }
     }
 
+    option = {
+        name = leng_project_event.1.aqua
+        trigger = {
+            has_aquatics = yes
+        }
+        hidden_effect = {
+            event_target:leng_project_planet = {
+                set_timed_planet_flag = {
+                    flag = leng_create_aqua
+                    days = 12
+                }
+            }
+        }
+    }
+
     after = {
         hidden_effect = {
             event_target:leng_project_planet = {
@@ -331,6 +346,21 @@ country_event = {
         }
     }
 
+    option = {
+        name = leng_project_event.4.aqua
+        trigger = {
+            has_aquatics = yes
+        }
+        hidden_effect = {
+            event_target:leng_project_planet = {
+                set_timed_planet_flag = {
+                    flag = leng_create_aqua
+                    days = 12
+                }
+            }
+        }
+    }
+
     after = {
         hidden_effect = {
             event_target:leng_project_planet = {
@@ -470,6 +500,19 @@ planet_event = {
             limit = { has_planet_flag = leng_create_necro }
             create_species = {
                 class = NECROID
+                name = RANDOM
+                portrait = RANDOM
+                homeworld = event_target:leng_project_planet
+                traits = { 
+					trait = leng_trait_engineered
+				}
+            }
+            last_created_species = { save_event_target_as = leng_project_species }
+        }
+        else_if = {
+            limit = { has_planet_flag = leng_create_aqua }
+            create_species = {
+                class = AQUATIC
                 name = RANDOM
                 portrait = RANDOM
                 homeworld = event_target:leng_project_planet
@@ -650,6 +693,21 @@ planet_event = {
             limit = { has_planet_flag = leng_create_necro }
             create_species = {
                 class = NECROID
+                name = RANDOM
+                portrait = RANDOM
+                homeworld = event_target:leng_project_planet
+                traits = {
+					trait = leng_trait_engineered
+					trait = random_presapient_trait
+				}
+				sapient = no
+            }
+            last_created_species = { save_event_target_as = leng_project_species }
+        }
+        else_if = {
+            limit = { has_planet_flag = leng_create_aqua }
+            create_species = {
+                class = AQUATIC
                 name = RANDOM
                 portrait = RANDOM
                 homeworld = event_target:leng_project_planet
