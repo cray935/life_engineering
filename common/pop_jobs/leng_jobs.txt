@@ -110,9 +110,8 @@ life_engineer_hive = {
 	building_icon = leng_building_evo_lab_1
     icon = brain_drone
 	
-	possible = {
-		drone_job_check_trigger = yes
-	}
+	possible_precalc = can_fill_drone_job
+	possible = { NOT = { has_trait = trait_nerve_stapled } }
 
 	resources = {
 		category = planet_researchers
@@ -165,9 +164,8 @@ life_engineer_mech = {
 	building_icon = leng_building_evo_lab_1
     icon = calculator
 	
-	possible = {
-		drone_job_check_trigger = yes
-	}
+	possible_precalc = can_fill_drone_job
+	possible = { NOT = { has_trait = trait_nerve_stapled } }
 
 	resources = {
 		category = planet_researchers
