@@ -92,7 +92,7 @@
   leng_project_event.4.plant: "Create §Y$PLANT$§! species."
   leng_project_event.4.lith: "Create §Y$LITHOID$§! species."
   leng_project_event.4.necro: "Create §Y$NECROID$§! species."
-leng_project_event.4.necro: "Create §Y$AQUATIC$§! species."
+  leng_project_event.4.aqua: "Create §Y$AQUATIC$§! species."
 
   leng_project_event.100.name: "Life Engineering Project completed"
   leng_project_event.100.desc: "The life engineers finished the evolution cycle on §Y[leng_project_planet.GetName]§!. We welcome the §Y[leng_project_species.GetName]§! to the galaxy."
