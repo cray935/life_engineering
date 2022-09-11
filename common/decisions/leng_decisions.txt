@@ -16,7 +16,7 @@ leng_decision_life_engineering_project = {
 	
 	potential = {
         OR = {
-            habitable_planet = yes
+            colonizable_planet = yes
             is_planet_class = pc_ringworld_habitable
 			leng_is_habitable_pd_planet = yes
         }
@@ -91,7 +91,7 @@ leng_decision_life_engineering_project_prim = {
 	
 	potential = {
         OR = {
-            habitable_planet = yes
+            colonizable_planet = yes
             is_planet_class = pc_ringworld_habitable
 			leng_is_habitable_pd_planet = yes
         }
@@ -171,7 +171,7 @@ leng_decision_regress_civ = {
 	
 	potential = {
         OR = {
-            habitable_planet = yes
+            colonizable_planet = yes
             is_planet_class = pc_ringworld_habitable
 			leng_is_habitable_pd_planet = yes
         }
@@ -208,7 +208,7 @@ leng_decision_life_engineering_project_presapient = {
 	
 	potential = {
         OR = {
-            habitable_planet = yes
+            colonizable_planet = yes
             is_planet_class = pc_ringworld_habitable
 			leng_is_habitable_pd_planet = yes
         }
