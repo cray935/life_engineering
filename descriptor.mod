@@ -1,4 +1,4 @@
-version="2.6.0"
+version="2.7.0"
 tags={
 	"Buildings"
 	"Gameplay"
@@ -6,5 +6,5 @@ tags={
 	"Technologies"
 }
 name="Species Engineering"
-supported_version="3.4.5"
+supported_version="3.6.*"
 remote_file_id="1695559328"
